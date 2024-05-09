@@ -2,7 +2,7 @@ import ArrowRight from "@/icons/arrow-right.svg";
 
 export function SignUpButton() {
   return (
-    <a className="group p-1 shadow-signup-button bg-white flex w-full items-center" href="https://ddg.gg" target="_blank" rel="noopener noreferrer">
+    <a className="group p-1 shadow-signup-button bg-white flex w-full items-center" href="https://shop.slipkft.hu/product-tag/nyata/" target="_blank" rel="noopener noreferrer">
       <div className="p-4">
         <ArrowRight className="h-10 w-10 text-primary group-hover:text-secondary transition-colors" />
       </div>

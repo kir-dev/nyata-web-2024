@@ -7,8 +7,8 @@ export function Footer() {
     <LayoutGrid>
 
       <div className="flex flex-col space-y-3 laptop:col-span-4 col-start-1 text-xl font-extrabold">
-        <a href="https://ddg.gg">NYATA 2024</a>
-        <a href="https://ddg.gg">Adatkezelési tájékoztató</a>
+        <a href="/">NYATA 2024</a>
+        <a href="/adatkezelesi.pdf">Adatkezelési tájékoztató</a>
         <a href="https://szakkoli.hu" target="_blank" rel="noopener noreferrer">szakkoli.hu</a>
         {/* <a href="https://muszak.bme.hu" target="_blank" rel="noopener noreferrer">muszak.bme.hu</a>*/}
 
