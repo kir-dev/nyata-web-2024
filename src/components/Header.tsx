@@ -10,7 +10,7 @@ function HeaderLink({ target, children }: PropsWithChildren<{ target: string }>)
 
 function SignUpButton() {
   return (
-    <a href="https://shop.slipkft.hu/product-tag/nyata/" target="_blank" className="group uppercase bg-white hover:bg-black p-1">
+    <a href="https://shop.slipkft.hu/" target="_blank" className="group uppercase bg-white hover:bg-black p-1">
       <div className="bg-secondary group-hover:bg-primary-light group-hover:text-black transition-colors px-5 py-2">
         jelentkezés
       </div>
