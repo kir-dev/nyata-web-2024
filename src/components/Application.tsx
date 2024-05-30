@@ -29,7 +29,11 @@ export function Application() {
               <Box shadow="left">
                 <p>Kattints a “Jelentkezem” gombra, ha Te is részt szeretnél venni a 2024-es <strong>Nyári Szakkollégiumi Találkozón!</strong></p><br />
                 <p>A kattintás után az oldal átnavigál téged a jegy- és bérletértékesítő felületre, ahol <strong>Te magad állíthatod össze saját NYATA-csomagod</strong>: beállíthatod, hány napra jönnél, szeretnél-e tábori étkezést, milyen merch cuccokat kérsz.</p><br />
-                <p>Azt javasoljuk, <strong>szerezd be minél előbb bérleted</strong>, hiszen a Super Early Bird és Early Bird jegyek csak limitált számban állnak rendelkezésünkre.</p>
+                <p>Azt javasoljuk, <strong>szerezd be minél előbb bérleted</strong>, hiszen a Super Early Bird és Early Bird jegyek csak limitált számban állnak rendelkezésünkre.</p><br />
+                <p>ℹ️ Amennyiben támogatni szeretnéd a többi táborozót, és részt szeretnél venni a visszaosztásban, lehetőséged van Támogatói Jegyet venned!</p>
+                <p>ℹ️ Amennyiben visszaosztást igényelnél, azt a regisztrációkor tudod jelezni majd megjegyzésben.</p>
+                <p>⚠️ A NYATA-pólót és -repoharat az alap jegy vagy bérlet nem tartalmaz, ezeket külön termékként tudod beszerezni a <a href="https://shop.slipkft.hu" target="_blank" className="text-primary hover:text-secondary transition-colors underline">shop.slipkft.hu</a> oldalon!</p>
+                <p>⚠️ A táborban csak repohárral tudunk majd kiszolgálni a pultoknál, így arra kérünk, vagy vegyél egyet a jegyed mellé, vagy pedig ne felejtsd otthon saját repoharad!</p>
               </Box>
             </div>
           </div>
