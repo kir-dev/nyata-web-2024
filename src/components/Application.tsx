@@ -14,8 +14,9 @@ export function Application() {
         <div className="flex flex-col space-y-[50px]">
           <Box shadow="right">
             <div className="text-3xl font-display space-y-2">
-              <p><strong>EARLY BIRD</strong> JEGYEK A KÉSZLET EREJÉIG!<br /></p>
-              <p><strong>JEGYÁR: 32.000 Ft-tól</strong></p>
+              <p><strong>BÉRLETEK ÉS NAPIJEGYEK A KÉSZLET EREJÉIG!</strong><br /></p>
+              <p><strong>BÉRLETEK</strong>: 35.000 Ft-tól</p>
+              <p><strong>NAPIJEGYEK</strong>: 9.000 Ft-tól</p>
             </div>
           </Box>
           <div className="shadow-box-right"><SignUpButton /></div>
