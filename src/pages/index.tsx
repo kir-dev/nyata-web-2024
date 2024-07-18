@@ -6,6 +6,7 @@ import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
 import { Location } from "@/components/Location";
 import { Programs } from "@/components/Programs";
+import { ProgramsTable } from "@/components/program-table/ProgramsTable";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <Hero />
         <Programs />
         <Cards />
+        <ProgramsTable />
         <Location />
         <Application />
         <Contact />

@@ -16,11 +16,13 @@ const config: Config = {
       colors: {
         primary: "#0f7173",
         "primary-light": "#9cd3c0",
+        "secondary-dark": "#F38B65",
         secondary: "#fda98b",
         "secondary-light": "#ffbd91",
         "gray-darkest": "#363636",
         "gray-dark": "#404040",
         "gray-light": "#484848",
+        "gray-lighter": "#525252",
       },
       fontFamily: {
         body: ["Raleway", "sans-serif"],
