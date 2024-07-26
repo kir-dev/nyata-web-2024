@@ -74,7 +74,7 @@ export function ProgramsTable() {
         </div>
         <ProgramCard time="10:00 - 11:30" color="green" name="Kézműves foglalkozások" />
         <ProgramCard time="11:30 - 13:00" color="black" name="ebéd" />
-        <ProgramCard time="13:00 - 14:15" color="orange" name="Vádirat a tudomány ellen" description="(beszélgetés Pálinkás Józseffel)" />
+        <ProgramCard time="13:00 - 14:15" color="orange" name="Vádirat a tudomány ellen" description="beszélgetés Pálinkás Józseffel" />
         <ProgramCard time="14:30 - 18:00" color="green" name="Vászonfestés / AI játék kiállítás / Szabad sport " />
         <ProgramCard time="15:00 - 16:00" color="orange" name="IT mindig és mindenhol - Új helyzetek, új készségek" description="Telekom - előadás" />
         <ProgramCard time="16:00 - 18:00" color="orange" name="Workshopok" />
@@ -94,10 +94,10 @@ export function ProgramsTable() {
         <ProgramCard time="10:30 - 11:30" color="green" name="Workshop: Győzd le Pityut és Mikit versekben!" />
         <ProgramCard time="10:30 - 11:30" color="orange" name="Elektromos autózás ma és holnap" description="Samsung SDI - előadás" />
         <ProgramCard time="11:30 - 13:00" color="black" name="ebéd" />
-        <ProgramCard time="13:00 - 14:30" color="orange" name="EgészségTechre! A holnap egészség-ügye" description="(Kerekasztal)" />
+        <ProgramCard time="13:00 - 14:30" color="orange" name="EgészségTechre! A holnap egészség-ügye" description="Kerekasztal-beszélgetés" />
         <ProgramCard time="13:00 - 17:00" color="green" name="fociBAJNOKSÁg (+teqball, kosár, kidobós, pingpong, tollas)" />
         <ProgramCard time="14:30 - 16:00" color="orange" name="Mélytanulás - A kütyügeneráció és a mai neveléstan kihívásai" description="Kissné Dr. Zsámboki Réka - előadás" />
-        <ProgramCard time="16:00 - 17:00" color="orange" name="A velünk alkotó AI -AI  a játék- és terméktervezésben" description="(Barta Jenő, graphisoft - előadás)" />
+        <ProgramCard time="16:00 - 17:00" color="orange" name="A velünk alkotó AI -AI  a játék- és terméktervezésben" description="Barta Jenő, graphisoft - előadás" />
         <ProgramCard time="17:00 - 18:00" color="green" name="Közös fotó" />
         <ProgramCard time="18:00 - 19:00" color="black" name="vacsora" />
         <ProgramCard time="19:00 - 20:30" color="green" name="Táncház" />
@@ -111,11 +111,11 @@ export function ProgramsTable() {
           <DayCard day="vasárnap" />
         </div>
         <ProgramCard time="9:30 - 10:00" color="green" name="Stretching" />
-        <ProgramCard time="10:00 - 11:30" color="orange" name="Addiktív design - Miért olvasunk kevesebbet és nézzük helyette a TikTok-ot?" description="(Sipka Bence - előadás)" />
+        <ProgramCard time="10:00 - 11:30" color="orange" name="Addiktív design - Miért olvasunk kevesebbet és nézzük helyette a TikTok-ot?" description="Sipka Bence - előadás" />
         <ProgramCard time="11:30 - 13:00" color="black" name="ebéd" />
         <ProgramCard time="13:00 - 14:00" color="orange" name="Az AI határai - múlt és jelen" description="(Mérő lászó, Turbine - előadás)" />
         <ProgramCard time="14:00 - 15:00" color="green" name="Vízicsata" />
-        <ProgramCard time="15:00 - 16:30" color="orange" name="Hívő és hitetlen tudomány" description="(Csókay andrás - beszélgetés)" />
+        <ProgramCard time="15:00 - 16:30" color="orange" name="Hívő és hitetlen tudomány" description="Csókay András - beszélgetés" />
         <ProgramCard time="16:30 - 18:00" color="green" name="Nagyvetélkedő / túra" />
         <ProgramCard time="18:00 - 19:00" color="black" name="vacsora" />
         <ProgramCard time="19:30 - 21:00" color="green" name="kvíz" />
