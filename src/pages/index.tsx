@@ -1,3 +1,4 @@
+import { Application } from "@/components/Application";
 import { Cards } from "@/components/Cards";
 import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
@@ -17,6 +18,7 @@ export default function Home() {
         <Cards />
         <ProgramsTable />
         <Location />
+        <Application />
         <Contact />
       </div>
       <Footer />
