@@ -5,7 +5,7 @@ type ProgramCardProps = {
   time: string;
   name: string;
   description?: string;
-  color: "green" | "orange";
+  color: "green" | "orange" | "black";
 }
 
 export function ProgramCard({ time, name, color, description }: ProgramCardProps) {
@@ -17,6 +17,7 @@ export function ProgramCard({ time, name, color, description }: ProgramCardProps
       <div className={clsx("bg-white uppercase py-5 px-4", {
         "text-primary": color === "green",
         "text-secondary-dark": color === "orange",
+        "text-black": color === "black",
       })}>
         <div className="font-extrabold text-xl">
           {name}
