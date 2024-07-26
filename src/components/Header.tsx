@@ -34,7 +34,6 @@ function MobileHeader() {
         <HeaderLink target="#programs">programok</HeaderLink>
         <HeaderLink target="#location">helyszín</HeaderLink>
         <HeaderLink target="#contact">kapcsolat</HeaderLink>
-        <SignUpButton />
       </div>
     </nav>
   )
@@ -53,7 +52,6 @@ export function Header() {
             <HeaderLink target="#programs">programok</HeaderLink>
             <HeaderLink target="#location">helyszín</HeaderLink>
             <HeaderLink target="#contact">kapcsolat</HeaderLink>
-            <SignUpButton />
           </div>
         </div>
       </nav>

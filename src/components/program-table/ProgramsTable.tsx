@@ -60,56 +60,65 @@ export function ProgramsTable() {
           <DayCard day="csütörtök" />
         </div>
         <ProgramCard time="15:00 - 17:00" color="green" name="ismerkedős játékok" />
-        <ProgramCard time="15:00 - 17:00" color="green" name="SZAKKOLi bemutató workshop" />
+        <ProgramCard time="17:00 - 18:00" color="green" name="Találkozz a többi szakkolissal!" description="kötetlen beszélgetés" />
+        <ProgramCard time="18:00 - 19:00" color="black" name="vacsora" />
         <ProgramCard time="19:00 - 20:00" color="green" name="zumba" />
         <ProgramCard time="20:00 - 22:00" color="green" name="esti játékok" />
         <ProgramCard time="22:00 - 04:00" color="green" name="Buli" />
       </DayColumn>
+
       {/* pentek */}
       <DayColumn column={2}>
         <div className="mb-3 laptop:hidden">
           <DayCard day="péntek" />
         </div>
         <ProgramCard time="10:00 - 11:30" color="green" name="Kézműves foglalkozások" />
-        <ProgramCard time="13:00 - 14:30" color="orange" name="A tudomány vádirata" description="(Pálinkás József - BESZÉLGETÉS)" />
-        <ProgramCard time="14:30 - 15:30" color="green" name="Vízicsata" />
-        <ProgramCard time="14:30 - 15:30" color="orange" name="Workshopok" />
-        <ProgramCard time="15:30 - 16:30" color="orange" name="Az AI jogi kérdései" description="(AI Safety - ELŐADÁS)" />
+        <ProgramCard time="11:30 - 13:00" color="black" name="ebéd" />
+        <ProgramCard time="13:00 - 14:15" color="orange" name="Vádirat a tudomány ellen" description="(beszélgetés Pálinkás Józseffel)" />
+        <ProgramCard time="14:30 - 18:00" color="green" name="Vászonfestés / AI játék kiállítás / Szabad sport " />
+        <ProgramCard time="15:00 - 16:00" color="orange" name="IT mindig és mindenhol - Új helyzetek, új készségek" description="Telekom - előadás" />
+        <ProgramCard time="16:00 - 18:00" color="orange" name="Workshopok" />
+        <ProgramCard time="18:00 - 19:00" color="black" name="vacsora" />
         <ProgramCard time="19:00 - 20:00" color="green" name="Akadályverseny" />
-        <ProgramCard time="19:00 - 20:00" color="green" name="Ismerkedős
-játékok" />
         <ProgramCard time="20:30 - 21:30" color="green" name="Borkóstoló" />
         <ProgramCard time="22:00 - 04:00" color="green" name="Buli" description="szakkolis dj-kkel" />
       </DayColumn>
+
       {/* szombat */}
       <DayColumn column={3}>
         <div className="mb-3 laptop:hidden">
           <DayCard day="szombat" />
         </div>
-        <ProgramCard time="10:00 - 11:30" color="orange" name="Workshopok" />
-        <ProgramCard time="10:00 - 11:30" color="green" name="Kézműves foglalkozások" />
+        <ProgramCard time="9:00 - 9:30" color="green" name="Streching" />
+        <ProgramCard time="9:30 - 10:30" color="green" name="Origami" />
+        <ProgramCard time="10:30 - 11:30" color="green" name="Workshop: Győzd le Pityut és Mikit versekben!" />
+        <ProgramCard time="10:30 - 11:30" color="orange" name="Elektromos autózás ma és holnap" description="Samsung SDI - előadás" />
+        <ProgramCard time="11:30 - 13:00" color="black" name="ebéd" />
         <ProgramCard time="13:00 - 14:30" color="orange" name="EgészségTechre! A holnap egészség-ügye" description="(Kerekasztal)" />
-        <ProgramCard time="13:00 - 17:00" color="green" name="fociBAJNOKSÁg (+teqball, kosár, kidobós)" />
-        <ProgramCard time="14:30 - 16:00" color="orange" name="! MEGLEPETÉS !" />
+        <ProgramCard time="13:00 - 17:00" color="green" name="fociBAJNOKSÁg (+teqball, kosár, kidobós, pingpong, tollas)" />
+        <ProgramCard time="14:30 - 16:00" color="orange" name="Mélytanulás - A kütyügeneráció és a mai neveléstan kihívásai" description="Kissné Dr. Zsámboki Réka - előadás" />
         <ProgramCard time="16:00 - 17:00" color="orange" name="A velünk alkotó AI -AI  a játék- és terméktervezésben" description="(Barta Jenő, graphisoft - előadás)" />
         <ProgramCard time="17:00 - 18:00" color="green" name="Közös fotó" />
+        <ProgramCard time="18:00 - 19:00" color="black" name="vacsora" />
         <ProgramCard time="19:00 - 20:30" color="green" name="Táncház" />
-        <ProgramCard time="21:00 - 23:30" color="green" name="Koncertek: gulugulu, sezlony" />
-        <ProgramCard time="23:30 - 04:00" color="green" name="Buli" />
+        <ProgramCard time="21:00 - 24:00" color="green" name="Koncertek: gulugulu, sezlony" />
+        <ProgramCard time="24:00 - 04:00" color="green" name="Buli" />
       </DayColumn>
+
       {/* vasarnap */}
       <DayColumn column={4}>
         <div className="mb-3 laptop:hidden">
           <DayCard day="vasárnap" />
         </div>
-        <ProgramCard time="9:00 - 9:30 / 10:00 - 10:30" color="green" name="Stretching" />
-        <ProgramCard time="10:00 - 11:30" color="orange" name="Workshopok" />
-        <ProgramCard time="13:00 - 14:00" color="orange" name="Gyógyszer-ffejlesztés ma" description="(Mérő lászó, turbine - előadás)" />
-        <ProgramCard time="13:00 - 16:00" color="green" name="SZABAD SPORT (FOCI, teqball, kosár, pingpong)" />
-        <ProgramCard time="14:00 - 15:00" color="orange" name="Workshopok" />
-        <ProgramCard time="15:00 - 16:30" color="orange" name="Hívó és hitetlen tudomány" description="(Csókay andrás - beszélgetés)" />
-        <ProgramCard time="16:00 - 18:00" color="green" name="Nagyvetélkedő / túra" />
-        <ProgramCard time="20:00 - 21:30" color="green" name="kvíz" />
+        <ProgramCard time="9:30 - 10:00" color="green" name="Stretching" />
+        <ProgramCard time="10:00 - 11:30" color="orange" name="Addiktív design - Miért olvasunk kevesebbet és nézzük helyette a TikTok-ot?" description="(Sipka Bence - előadás)" />
+        <ProgramCard time="11:30 - 13:00" color="black" name="ebéd" />
+        <ProgramCard time="13:00 - 14:00" color="orange" name="Az AI határai - múlt és jelen" description="(Mérő lászó, Turbine - előadás)" />
+        <ProgramCard time="14:00 - 15:00" color="green" name="Vízicsata" />
+        <ProgramCard time="15:00 - 16:30" color="orange" name="Hívő és hitetlen tudomány" description="(Csókay andrás - beszélgetés)" />
+        <ProgramCard time="16:30 - 18:00" color="green" name="Nagyvetélkedő / túra" />
+        <ProgramCard time="18:00 - 19:00" color="black" name="vacsora" />
+        <ProgramCard time="19:30 - 21:00" color="green" name="kvíz" />
         <ProgramCard time="22:00 - 04:00" color="green" name="Buli" />
       </DayColumn>
     </div>
