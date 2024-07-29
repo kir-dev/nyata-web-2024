@@ -10,6 +10,11 @@ export default async function handler(
     return res.status(400).json({ error: "No name or email given!" });
   }
 
+  const blacklist = process.env.EMAIL_BLACKLIST?.split(",") || [];
+  if (blacklist.includes(req.body.email)) {
+    return res.status(200).send("OK");
+  }
+
   sgMail.setApiKey(process.env.SENDGRID_API_KEY);
   const msg: MailDataRequired = {
     to: 'nyata-vez@gszk.bme.hu',
