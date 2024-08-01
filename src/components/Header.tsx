@@ -5,7 +5,7 @@ import Hamburger from "@/icons/hamburger.svg"
 import clsx from "clsx";
 
 function HeaderLink({ target, children }: PropsWithChildren<{ target: string }>) {
-  return <a href={target} className="uppercase px-2 py-1 w-full laptop:w-auto laptop:p-4">{children}</a>
+  return <a href={target} className="uppercase px-2 py-1 w-full laptop:w-auto laptop:p-4 hover:text-secondary-dark transition-colors">{children}</a>
 }
 
 function SignUpButton() {

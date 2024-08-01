@@ -1,5 +1,6 @@
 import { DayCard } from "@/components/program-table/DayCard"
 import { ProgramCard } from "@/components/program-table/ProgramCard"
+import { Section } from "@/components/Section"
 import clsx from "clsx"
 import { PropsWithChildren } from "react"
 
@@ -33,6 +34,8 @@ function DayColumn({ children, column }: DayColumnProps) {
 
 export function ProgramsTable() {
   return (
+    <Section id="programs">
+
     <div className="grid grid-cols-1 tablet:grid-cols-2 laptop:grid-cols-4 laptop:gap-x-10 gap-x-2 tablet:gap-x-6 tablet:gap-y-6 gap-y-12 font-body mt-16">
       <div className="block laptop:hidden col-span-full col-start-1">
         <Banner />
@@ -80,7 +83,8 @@ export function ProgramsTable() {
         <ProgramCard time="16:00 - 18:00" color="orange" name="Workshopok" />
         <ProgramCard time="18:00 - 19:00" color="black" name="vacsora" />
         <ProgramCard time="19:00 - 20:00" color="green" name="Akadályverseny" />
-        <ProgramCard time="20:30 - 21:30" color="green" name="Borkóstoló" />
+        <ProgramCard time="20:00 - 21:30" color="green" name="Borkóstoló" />
+        <ProgramCard time="20:00 - 21:00" color="orange" name="Topolológia a Kriptozoológiában" description="Andorfi-Csonka-Eper" />
         <ProgramCard time="22:00 - 04:00" color="green" name="Buli" description="szakkolis dj-kkel" />
       </DayColumn>
 
@@ -122,5 +126,8 @@ export function ProgramsTable() {
         <ProgramCard time="22:00 - 04:00" color="green" name="Buli" />
       </DayColumn>
     </div>
+
+    </Section>
+
   )
 }
