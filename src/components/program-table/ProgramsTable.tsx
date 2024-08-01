@@ -84,7 +84,7 @@ export function ProgramsTable() {
         <ProgramCard time="18:00 - 19:00" color="black" name="vacsora" />
         <ProgramCard time="19:00 - 20:00" color="green" name="Akadályverseny" />
         <ProgramCard time="20:00 - 21:30" color="green" name="Borkóstoló" />
-        <ProgramCard time="20:00 - 21:00" color="orange" name="Topolológia a Kriptozoológiában" description="Andorfi-Csonka-Eper" />
+        <ProgramCard time="20:00 - 21:00" color="orange" name="Topológia a Kriptozoológiában" description="Andorfi-Csonka-Eper" />
         <ProgramCard time="22:00 - 04:00" color="green" name="Buli" description="szakkolis dj-kkel" />
       </DayColumn>
 
