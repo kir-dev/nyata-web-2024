@@ -16,7 +16,7 @@ export default function Home() {
         <Hero />
         <Programs />
         <Cards />
-        <ProgramsTable />
+        {process.env.NEXT_PUBLIC_SHOW_PROGRAMS_TABLE === "true" && (<ProgramsTable />)}
         <Location />
         <Application />
         <Contact />

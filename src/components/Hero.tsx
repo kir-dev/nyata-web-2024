@@ -5,6 +5,7 @@ import Wave from "@/icons/wave.svg";
 import { ImageCarouselSection } from "./carousel/image-carousel-section";
 import CalendarIcon from "@/icons/calendar-simple.svg";
 import LocationIcon from "@/icons/pin.svg";
+import { SignUpButton } from "./SignUpButton";
 
 export function Hero() {
   return (
@@ -44,6 +45,7 @@ export function Hero() {
         </div>
       </div>
 
+      {process.env.NEXT_PUBLIC_APPLICATION_STATUS === "open" && (<SignUpButton />)}
     </Section>
   );
 }
