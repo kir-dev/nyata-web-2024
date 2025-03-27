@@ -19,7 +19,7 @@ export function SocialButtons() {
       >
         <Instagram className="w-[52px] h-[52px] transition-colors text-primary hover:text-secondary" />
       </a>
-      <a href="mailto:nyata-vez@gszk.bme.hu">
+      <a href={`mailto:${process.env.NEXT_PUBLIC_LEADERSHIP_EMAIL}`}>
         <Email className="w-[52px] h-[52px] transition-colors text-primary hover:text-secondary" />
       </a>
     </div>
