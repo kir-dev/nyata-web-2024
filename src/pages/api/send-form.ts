@@ -17,7 +17,7 @@ export default async function handler(
 
   sgMail.setApiKey(process.env.SENDGRID_API_KEY);
   const msg: MailDataRequired = {
-    to: 'nyata-vez@gszk.bme.hu',
+    to: process.env.NEXT_PUBLIC_LEADERSHIP_EMAIL,
     from: 'nyata2024-noreply@simonyi.bme.hu', // Use the email address or domain you verified above
     subject: '[nyata.hu] Új üzenet érkezett a weboldalon keresztül',
     html: `<div>
@@ -30,6 +30,7 @@ export default async function handler(
   };
   
   try {
+    console.log("Sending email...", msg);
     await sgMail.send(msg);
   } catch (error) {
     console.error(error);
