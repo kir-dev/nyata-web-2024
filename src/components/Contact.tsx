@@ -1,9 +1,9 @@
 import { Box } from "@/components/Box";
 import { Section } from "@/components/Section";
 import { Title } from "@/components/Title";
-import Message from "@/icons/message.svg";
 import { ContactForm } from "./ContactForm";
 import { SocialButtons } from "./SocialButtons";
+import Image from "next/image";
 
 export function Contact() {
   return (
@@ -12,7 +12,7 @@ export function Contact() {
       className="mt-[80px] tablet:mt-[124px] space-y-[45px] mb-[105px]"
     >
       <div className="flex tablet:ml-[58px]">
-        <Title text="Kapcsolat" icon={<Message />} />
+        <Title text="Kapcsolat" icon={<Image src={"/kapcsolat_ikon.png"} alt={"kapcsolat"} height={63} width={63} className="h-[63px] w-[63px]" />} />
       </div>
       <div className="flex laptop:flex-row flex-col laptop:space-x-[71px] space-x-0 space-y-[71px] laptop:space-y-0">
         <div className="laptop:w-2/3">

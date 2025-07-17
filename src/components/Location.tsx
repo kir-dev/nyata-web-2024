@@ -1,15 +1,15 @@
 import { Box } from "@/components/Box";
 import { Section } from "@/components/Section";
 import { Title } from "@/components/Title";
-import Pin from "@/icons/pin.svg";
 import { BoxLighter } from "./BoxLighter";
+import Image from "next/image";
 
 export function Location() {
   return (
     <Section id="location" className="space-y-[44px] mt-[84px] tablet:mt-[122px] mb-[100px] tablet:mb-[150px]">
       <div className="flex items-center justify-between flex-col laptop:flex-row">
         <div className="laptop:ml-[58px]">
-          <Title text="Helyszín" icon={<Pin className="h-[76px] w-[63px]" />} />
+          <Title text="Helyszín" icon={<Image src={"/helyszin_ikon.png"} alt={"helyszin"} height={63} width={63} className="h-[63px] w-[63px]" />} />
         </div>
         <div className="grow-0">
           <Box shadow="right">
