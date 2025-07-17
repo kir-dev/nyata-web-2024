@@ -31,7 +31,7 @@ export function Hero() {
             <div className="px-[26px] py-[10px] tablet:px-[58px] tablet:py-[20px] bg-gray-darkest text-white uppercase font-display text-2xl tablet:text-3xl font-semibold">
               <div className="flex flex-row gap-4">
                 <CalendarIcon className="h-[38px] w-[32px]" />
-                2024. augusztus 1-5.
+                2025. augusztus 18-22.
               </div>
               <div className="flex flex-row gap-4 mt-2">
                 <LocationIcon className="h-[38px] w-[32px]" />

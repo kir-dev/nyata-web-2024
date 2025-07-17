@@ -15,7 +15,7 @@ export default function ComingSoonLanding() {
         A hazai és határon túli szakkollégiumok központi éves rendezvénye
       </div>
       <div className="mt-4">
-        <Title text="SOPRON | AUG. 1-5." />
+        <Title text="SOPRON | AUG. 18-22." />
       </div>
       <div className="font-semibold text-xl tablet:text-3xl my-8">
         Hamarosan megnyitunk!
