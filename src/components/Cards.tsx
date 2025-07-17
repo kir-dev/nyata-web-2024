@@ -3,12 +3,13 @@ import Profession from "@/logos/profession.svg";
 import Community from "@/logos/community.svg";
 import Workshops from "@/logos/workshops.svg";
 import Hand from "@/icons/hand.svg";
+import Image from "next/image";
 
 export function Cards() {
   return (
     <div className="flex flex-col laptop:flex-row items-start justify-between laptop:space-x-[28px] space-y-[28px] laptop:space-y-0 mt-[104px]">
       <FeatureCard
-        image={<Profession className="w-40 h-40" />}
+        image={<Image alt={"Szakmai Élet"} src={"/visual_values_szakmaisag.png"} width={160} height={160} className="w-60 h-40" />}
         title="Szakmai élet"
         description={
           <>
@@ -17,7 +18,7 @@ export function Cards() {
         }
       />
       <FeatureCard
-        image={<Community className="w-40 h-40" />}
+        image={<Image alt={"Kozosseg"} src={"/visual_values_kozosseg.png"} height={160} width={160} className="w-60 h-40" />}
         title="Közösség"
         description={
           <>
@@ -26,7 +27,7 @@ export function Cards() {
         }
       />
       <FeatureCard
-        image={<Workshops className="w-40 h-40" />}
+          image={<Image alt={"Workshopok"} src={"/visual_values_workshop.png"} height={160} width={160} className="w-60 h-40" />}
         title="Workshopok"
         description={
           <>
