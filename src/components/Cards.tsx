@@ -12,9 +12,7 @@ export function Cards() {
         title="Szakmai élet"
         description={
           <>
-            Előadások, kerekasztal beszélgetések, és hasonló érdekes szakmai
-            programok <strong>elismert szakértőkkel</strong>, szakmabeliekkel,{" "}
-            <strong>vállalalati és tudományos</strong> szférából is!
+          <strong>Fontos számunkra</strong>, hogy minden résztvevő úgy távozzon majd a táborból, hogy azt érzi, hogy sok <strong>hasznos tudással</strong> lett gazdagabb. Ennek érdekében olyan <strong>vezetőket</strong> és <strong>szakembereket</strong> hívunk az <strong>előadások</strong> és <strong>kerekasztal beszélgetések</strong> megtartására, akik első kézből tudják ezt átadni Nektek.
           </>
         }
       />
@@ -23,8 +21,7 @@ export function Cards() {
         title="Közösség"
         description={
           <>
-            Rengeteg lehetőség <strong>kikapcsolódni és szórakozni</strong>:
-            csapatépítő játékok, sportok, esti bulik, miegymás!
+              Akár ez az első NYATÁ-d, akár a sokadik, itt egy olyan <strong>nyitott, befogadó és széles látókörű csapat</strong> vár, akikkel biztos <strong>nem fogsz unatkozni</strong>! Alakíts ki új barátságokat, vagy találkozz régi ismerőseiddel és vegyetek részt közösen <strong>kreatív workshopokon</strong> és <strong>kötetlen beszélgetéseken</strong>, illetve <strong>csapatépítő</strong> és <strong>sport programjainkon</strong>. Esténként pedig egy <strong>hatalmas buli</strong> vár rátok, két színpadon.
           </>
         }
       />
@@ -33,9 +30,7 @@ export function Cards() {
         title="Workshopok"
         description={
           <>
-            Alkossunk valami izgalmasat: gondolkodjunk és dolgozzunk együtt a
-            NYATA-n! Kisebb csoportos foglalkozások{" "}
-            <strong>szakkolisoktól szakkolisoknak</strong>.
+              Alkossunk valami izgalmasat: gondolkodjunk és dolgozzunk együtt a NYATA-n! Kisebb csoportos foglalkozások <strong>szakkolisoktól szakkolisoknak</strong>.
           </>
         }
       >

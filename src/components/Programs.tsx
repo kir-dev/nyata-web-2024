@@ -11,7 +11,10 @@ export function Programs() {
         <Title text="Programok" icon={<Calendar />} />
       </div>
       <Box shadow="right">
-        <p className="laptop:pr-96">Az idei NYATA témája a <strong>Technológia és Társadalom</strong>. Mik a legújabb <strong>technológiai trendek</strong>, mik ezeknek a társadalmi vonatkozásai? Hogyan használjuk hatékonyan az <strong>AI</strong> adta lehetőségeket? Hogyan tud <strong>fennmaradni egy város, ország, társadalom</strong> a 21.században?Ha érdekelnek ezek a kérdések, csatlakozz hozzánk a 27. alkalommal megrendezésre kerülő NYATA-n és vitassuk meg közösen a válaszokat! <strong>Találkozunk Sopronban!</strong></p>
+        <p className="laptop:pr-96">A <strong>NYATA 2025</strong> tematikája az <strong>Akadémiai és Vállalati szektorok
+            találkozása.</strong> Érdekel, hogyan hat az <strong>innováció</strong> a gazdaság különféle szektoraira és fordítva? Szeretnél betekintést nyerni a piacon lévő <strong>vállalatok</strong> és <strong>intézmények</strong> működésébe és megismerni azok előnyeit és kihívásait? Esetleg a <strong>civil-
+            és nonprofit szervezetek</strong> felépítése érdekel? Ha bármelyikre igen a válasz, akkor <strong>csatlakozz
+            hozzánk</strong> augusztusban 18-22-ig és keresük meg a választ együtt!</p>
       </Box>
 
       <div className="absolute laptop:-top-24 hidden tablet:block tablet:-top-6 tablet:right-0 laptop:right-7">
