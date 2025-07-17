@@ -8,7 +8,7 @@ export function Programs() {
   return (
     <Section id="programs" className="space-y-[29px] flex flex-col items-start w-full relative mt-20 tablet:mt-28">
       <div className="tablet:ml-[58px]">
-        <Title text="Programleírás hamarosan" icon={<Image src="/programok_ikon.png" alt="programok" height={63} width={63} className="h-[63px] w-[63px]" />} />
+        <Title text="Programok" icon={<Image src="/programok_ikon.png" alt="programok" height={63} width={63} className="h-[63px] w-[63px]" />} />
       </div>
       <Box shadow="right">
         <p className="laptop:pr-96">A <strong>NYATA 2025</strong> tematikája az <strong>Akadémiai és Vállalati szektorok

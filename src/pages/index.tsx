@@ -7,6 +7,7 @@ import { Hero } from "@/components/Hero";
 import { Location } from "@/components/Location";
 import { Programs } from "@/components/Programs";
 import { ProgramsTable } from "@/components/program-table/ProgramsTable";
+import { ProgramsSoon } from "@/components/ProgramsSoon";
 
 export default function Home() {
   return (
@@ -16,7 +17,11 @@ export default function Home() {
         <Hero />
         <Programs />
         <Cards />
-        {process.env.NEXT_PUBLIC_SHOW_PROGRAMS_TABLE === "true" && (<ProgramsTable />)}
+        {process.env.NEXT_PUBLIC_SHOW_PROGRAMS_TABLE === "true" ? (
+          <ProgramsTable />
+        ) : (
+          <ProgramsSoon />
+        )}
         <Location />
         <Application />
         <Contact />
