@@ -6,9 +6,9 @@ import People from "@/logos/people.svg";
 
 export function Programs() {
   return (
-    <Section className="space-y-[29px] flex flex-col items-start w-full relative mt-20 tablet:mt-28">
+    <Section id="programs" className="space-y-[29px] flex flex-col items-start w-full relative mt-20 tablet:mt-28">
       <div className="tablet:ml-[58px]">
-        <Title text="Programok" icon={<Calendar />} />
+        <Title text="Programleírás hamarosan" icon={<Calendar />} />
       </div>
       <Box shadow="right">
         <p className="laptop:pr-96">A <strong>NYATA 2025</strong> tematikája az <strong>Akadémiai és Vállalati szektorok

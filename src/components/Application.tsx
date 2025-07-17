@@ -108,9 +108,7 @@ export function Application() {
         </div>
         <div className="text-center text-2xl z-10 relative">
           <Box shadow="left">
-            <strong>A jelentkezés lezárult</strong>, köszönjük az érdeklődést,
-            <br />
-            és találkozunk hamarosan Sopronban!
+            <strong>Jelentkezés hamarosan!</strong>
           </Box>
         </div>
       </div>
