@@ -30,11 +30,11 @@ export function Hero() {
             </div>
             <div className="px-[26px] py-[10px] tablet:px-[58px] tablet:py-[20px] bg-gray-darkest text-white uppercase font-display text-2xl tablet:text-3xl font-semibold">
               <div className="flex flex-row gap-4">
-                <CalendarIcon className="h-[38px] w-[32px]" />
+                <Image src={"/programok_ikon.png"} alt={"datum"} height={32} width={32} className="h-[32px] w-[32px]" />
                 2025. augusztus 18-22.
               </div>
               <div className="flex flex-row gap-4 mt-2">
-                <LocationIcon className="h-[38px] w-[32px]" />
+                <Image src={"/helyszin_ikon.png"} alt={"helyszin"} height={32} width={32} className="h-[32px] w-[32px]" />
                 Sopron
               </div>
             </div>
