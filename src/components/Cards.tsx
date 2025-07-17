@@ -3,39 +3,35 @@ import Profession from "@/logos/profession.svg";
 import Community from "@/logos/community.svg";
 import Workshops from "@/logos/workshops.svg";
 import Hand from "@/icons/hand.svg";
+import Image from "next/image";
 
 export function Cards() {
   return (
     <div className="flex flex-col laptop:flex-row items-start justify-between laptop:space-x-[28px] space-y-[28px] laptop:space-y-0 mt-[104px]">
       <FeatureCard
-        image={<Profession className="w-40 h-40" />}
+        image={<Image alt={"Szakmai Élet"} src={"/visual_values_szakmaisag.png"} width={160} height={160} className="w-60 h-40" />}
         title="Szakmai élet"
         description={
           <>
-            Előadások, kerekasztal beszélgetések, és hasonló érdekes szakmai
-            programok <strong>elismert szakértőkkel</strong>, szakmabeliekkel,{" "}
-            <strong>vállalalati és tudományos</strong> szférából is!
+          <strong>Fontos számunkra</strong>, hogy minden résztvevő úgy távozzon majd a táborból, hogy azt érzi, hogy sok <strong>hasznos tudással</strong> lett gazdagabb. Ennek érdekében olyan <strong>vezetőket</strong> és <strong>szakembereket</strong> hívunk az <strong>előadások</strong> és <strong>kerekasztal beszélgetések</strong> megtartására, akik első kézből tudják ezt átadni Nektek.
           </>
         }
       />
       <FeatureCard
-        image={<Community className="w-40 h-40" />}
+        image={<Image alt={"Kozosseg"} src={"/visual_values_kozosseg.png"} height={160} width={160} className="w-60 h-40" />}
         title="Közösség"
         description={
           <>
-            Rengeteg lehetőség <strong>kikapcsolódni és szórakozni</strong>:
-            csapatépítő játékok, sportok, esti bulik, miegymás!
+              Akár ez az első NYATÁ-d, akár a sokadik, itt egy olyan <strong>nyitott, befogadó és széles látókörű csapat</strong> vár, akikkel biztos <strong>nem fogsz unatkozni</strong>! Alakíts ki új barátságokat, vagy találkozz régi ismerőseiddel és vegyetek részt közösen <strong>kreatív workshopokon</strong> és <strong>kötetlen beszélgetéseken</strong>, illetve <strong>csapatépítő</strong> és <strong>sport programjainkon</strong>. Esténként pedig egy <strong>hatalmas buli</strong> vár rátok, két színpadon.
           </>
         }
       />
       <FeatureCard
-        image={<Workshops className="w-40 h-40" />}
+          image={<Image alt={"Workshopok"} src={"/visual_values_workshop.png"} height={160} width={160} className="w-60 h-40" />}
         title="Workshopok"
         description={
           <>
-            Alkossunk valami izgalmasat: gondolkodjunk és dolgozzunk együtt a
-            NYATA-n! Kisebb csoportos foglalkozások{" "}
-            <strong>szakkolisoktól szakkolisoknak</strong>.
+              Alkossunk valami izgalmasat: gondolkodjunk és dolgozzunk együtt a NYATA-n! Kisebb csoportos foglalkozások <strong>szakkolisoktól szakkolisoknak</strong>.
           </>
         }
       >

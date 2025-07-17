@@ -5,43 +5,53 @@ const items = [
   {
     priority: 1000,
     src: "/carousel-images/01.jpg",
-    title: "NYATA 2023",
+    title: "NYATA 2024",
   },
   {
     priority: 1000,
     src: "/carousel-images/02.jpg",
-    title: "NYATA 2023",
+    title: "NYATA 2024",
   },
   {
     priority: 1000,
     src: "/carousel-images/03.jpg",
-    title: "NYATA 2023",
+    title: "NYATA 2024",
   },
   {
     priority: 1000,
     src: "/carousel-images/04.jpg",
-    title: "NYATA 2023",
+    title: "NYATA 2024",
   },
   {
     priority: 1000,
     src: "/carousel-images/05.jpg",
-    title: "NYATA 2023",
+    title: "NYATA 2024",
   },
   {
     priority: 1000,
     src: "/carousel-images/06.jpg",
-    title: "NYATA 2023",
+    title: "NYATA 2024",
   },
   {
     priority: 1000,
     src: "/carousel-images/07.jpg",
-    title: "NYATA 2023",
+    title: "NYATA 2024",
   },
   {
     priority: 1000,
     src: "/carousel-images/08.jpg",
-    title: "NYATA 2023",
+    title: "NYATA 2024",
   },
+    {
+        priority: 1000,
+        src: "/carousel-images/09.jpg",
+        title: "NYATA 2024",
+    },
+    {
+        priority: 1000,
+        src: "/carousel-images/10.jpg",
+        title: "NYATA 2024",
+    },
 ];
 
 // snatched from here: https://github.com/simonyiszk/konf-web-2024/blob/main/src/components/image-carousel/image-carousel-section.tsx

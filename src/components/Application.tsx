@@ -3,6 +3,7 @@ import { Title } from "@/components/Title";
 import Tent from "@/icons/tent.svg";
 import Message from "@/logos/message.svg";
 import { SignUpButton } from "./SignUpButton";
+import Image from "next/image";
 
 export function Application() {
   if (process.env.NEXT_PUBLIC_APPLICATION_STATUS === "open") {
@@ -99,7 +100,7 @@ export function Application() {
   return (
     <div className="mt-[26px] relative">
       <div className="flex flex-row items-center justify-between tablet:ml-[58px]">
-        <Title text="JELENTKEZÉS" icon={<Tent />} />
+        <Title text="JELENTKEZÉS" icon={<Image src={"/jelentkezés_ikon.png"} alt={"jelentkezes"} height={63} width={63} className="h-[63px] w-[63px]" />} />
       </div>
 
       <div className="mt-16 relative">
@@ -108,9 +109,7 @@ export function Application() {
         </div>
         <div className="text-center text-2xl z-10 relative">
           <Box shadow="left">
-            <strong>A jelentkezés lezárult</strong>, köszönjük az érdeklődést,
-            <br />
-            és találkozunk hamarosan Sopronban!
+            <strong>Jelentkezés hamarosan!</strong>
           </Box>
         </div>
       </div>
